@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(153, 231, 231);
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 15px;
+    padding: 0 2px;
+    margin: 25px;
+    font-size: 20px;
+}
+    
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+nav li:hover{
+    background-color: rgb(236, 125, 125);
+}
+.per{
+    text-align: center;
+    color: rgb(226, 19, 105);
+}
+.img1{
+    text-align: center;  
+}
+details[open]>summary{
+    background-color: rgb(226, 164, 19);
+}
+.some{
+    text-align: center;
+    color: rgb(124, 124, 230);
+}
